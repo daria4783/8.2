@@ -1,0 +1,37 @@
+thead :nth-child(2n) {
+    color: green;
+    
+}
+thead :nth-child(3n) {
+    color: red;
+}
+tbody :nth-child(4n) :hover {
+background-color: mediumspringgreen;
+color: black;
+}
+tr :first-child{
+    color: aquamarine;
+}
+tr :last-child{
+    color: rebeccapurple;
+}
+tr :nth-child(2n){
+    color: khaki;
+}
+tbody :first-child {
+    color: lavender;
+}
+tbody :hover :checked{
+    color: lightblue;
+}
+tr :hover :last-child {
+color: indianred;
+}
+table caption {
+text-align: left;
+}
+table th,
+table td {
+  padding: 10px;
+  border: 1px solid #2a2a2a;
+}
